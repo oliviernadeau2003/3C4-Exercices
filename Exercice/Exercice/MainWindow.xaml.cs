@@ -23,6 +23,7 @@ namespace Exercice
         public MainWindow()
         {
             InitializeComponent();
+            
         }
     }
 }
