@@ -30,3 +30,11 @@
 *.exe
 *.out
 *.app
+
+Exercice/.vs/
+
+Exercice/Exercice/bin/
+
+Exercice/Exercice/obj/
+
+Exercice/Exercice/Exercice.csproj.user
