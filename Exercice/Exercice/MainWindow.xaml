@@ -10,24 +10,22 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition></RowDefinition>
-            <RowDefinition></RowDefinition>
+            <RowDefinition Height="150px"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
             <RowDefinition></RowDefinition>
         </Grid.RowDefinitions>
 
-        <TextBlock FontSize="60" TextAlignment="Left" Background="Red">1</TextBlock>
-        <TextBlock Grid.Column="1" FontSize="60" FontWeight="bold" TextAlignment="Center" Background="Green">2</TextBlock>
-        <TextBlock Grid.Column="2" FontSize="60" TextAlignment="Right" FontStyle="Italic" Background="Blue">3</TextBlock>
-        
-        <TextBlock Grid.Row="1" FontSize="60" TextAlignment="Left" Background="Yellow">4</TextBlock>
-        <TextBlock Grid.Row="1" Grid.Column="1" FontSize="60" FontWeight="bold" TextAlignment="Center" Background="cyan" >5</TextBlock>
-        <TextBlock Grid.Row="1" Grid.Column="2" FontSize="60" TextAlignment="Right" FontStyle="Italic" Background="Purple" >6</TextBlock>
-
-        <TextBlock Grid.Row="2"  FontSize="60" TextAlignment="Left" Background="Brown">7</TextBlock>
-        <TextBlock Grid.Row="2" Grid.Column="1" FontSize="60" FontWeight="bold" TextAlignment="Center" Background="Beige">8</TextBlock>
-        <TextBlock Grid.Row="2" Grid.Column="2" FontSize="60" TextAlignment="Right" FontStyle="Italic" Background="Gray">9</TextBlock>
+        <TextBlock FontSize="80">Cours 01</TextBlock>
+        <StackPanel Grid.Row="1">
+            <TextBlock Grid.Row="1" FontSize="25">vincent lavoie whitlock</TextBlock>
+            <TextBlock Grid.Row="1" FontSize="25" FontStyle="Italic" TextAlignment="Right">1966857</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Button Height="40px" Width="300px" FontSize="25" Margin="10px">Exercice 1</Button>
+            <Button Height="40px" Width="300px" FontSize="25" Margin="10px">Exercice 2</Button>
+            <Button Height="40px" Width="300px" FontSize="25" Margin="10px">Exercice 3</Button>
+        </StackPanel>
     </Grid>
 </Window>
