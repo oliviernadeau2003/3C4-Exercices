@@ -13,5 +13,7 @@ namespace Exercice
     /// </summary>
     public partial class App : Application
     {
+
+
     }
 }
