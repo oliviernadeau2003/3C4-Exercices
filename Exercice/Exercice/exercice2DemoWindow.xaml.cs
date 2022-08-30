@@ -18,9 +18,9 @@ namespace Exercice
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class exercice2DemoWindow : Window
     {
-        public MainWindow()
+        public exercice2DemoWindow()
         {
             InitializeComponent();
             

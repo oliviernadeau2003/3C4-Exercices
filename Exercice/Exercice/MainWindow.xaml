@@ -5,8 +5,27 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Exercice"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        Title="Vincent" Height="450" Width="800">
+    <Grid >
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="150px"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
 
+        <TextBlock FontSize="80">Cours 01</TextBlock>
+        <StackPanel Grid.Row="1">
+            <TextBlock Grid.Row="1" FontSize="25">vincent lavoie whitlock</TextBlock>
+            <TextBlock Grid.Row="1" FontSize="25" FontStyle="Italic" TextAlignment="Right">1966857</TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="2">
+            <Button Height="40px" Width="300px" FontSize="25" Margin="10px">Exercice 1</Button>
+            <Button Height="40px" Width="300px" FontSize="25" Margin="10px">Exercice 2</Button>
+            <Button Height="40px" Width="300px" FontSize="25" Margin="10px">Exercice 3</Button>
+        </StackPanel>
     </Grid>
 </Window>
