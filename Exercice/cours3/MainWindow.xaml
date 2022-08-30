@@ -8,5 +8,10 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
 
+        <!--Top bar-->
+
+        <!--titre-->
+        <!--Text plus bottom-->
+        <!--bottom bar-->
     </Grid>
 </Window>

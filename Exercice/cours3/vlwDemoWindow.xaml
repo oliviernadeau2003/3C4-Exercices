@@ -6,7 +6,17 @@
         xmlns:local="clr-namespace:cours3"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        <TextBlock>allo</TextBlock>
-    </Grid>
+    <StackPanel>
+        <TextBlock Background="green">hello world</TextBlock>
+        <TextBlock Background="red">hello world</TextBlock>
+        <TextBlock Background="blue">hello world</TextBlock>
+
+        <WrapPanel>
+            <TextBlock Background="green">hello world</TextBlock>
+            <TextBlock Background="red">hello world</TextBlock>
+            <TextBlock Background="blue">hello world</TextBlock>
+        </WrapPanel>
+    </StackPanel>
+    
+   
 </Window>
