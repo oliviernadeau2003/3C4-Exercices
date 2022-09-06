@@ -5,12 +5,14 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:cours3"
         mc:Ignorable="d"
-        Title="Discord | LE lieu pour discuter et se retrouver" Height="450" Width="800"
+        Title="Discord | LE lieu pour discuter et se retrouver" Height="2000" Width="800"
         WindowStartupLocation="CenterScreen">
     <Grid>
 
         <!--Top bar-->
-        <Grid Height="40px" VerticalAlignment="Top" Background="#5865f2">
+
+        <StackPanel Height="40px" VerticalAlignment="Top" Background="#5865f2">
+            <Grid Height="40px" VerticalAlignment="Top" >
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
@@ -26,7 +28,7 @@
                 <ColumnDefinition></ColumnDefinition>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
-
+    
             <WrapPanel VerticalAlignment="Center" Grid.ColumnSpan="3">
                 <TextBlock Background="Wheat" Height="15px" Width="15px"></TextBlock>
                 <TextBlock FontSize="18" TextAlignment="Left" Foreground="#fff" VerticalAlignment="Center">discord</TextBlock>
@@ -41,8 +43,10 @@
             <TextBlock Grid.Column="9" TextAlignment="Center"  Foreground="#fff" VerticalAlignment="Center">emploi</TextBlock>
             <Button Grid.Column="10" Height="30px" Grid.ColumnSpan="3" Margin="100px 0 10 0">Se Connecter</Button>
         </Grid>
+        </StackPanel>
         <!--titre-->
-        <Grid>
+        <StackPanel VerticalAlignment="Top" Margin="0,40,0,0">
+            <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition></ColumnDefinition>
             </Grid.ColumnDefinitions>
@@ -50,9 +54,9 @@
             <Grid.RowDefinitions>
                 <RowDefinition></RowDefinition>
             </Grid.RowDefinitions>
-            
-            
-            <StackPanel Background="#FF345DDC">
+
+
+                <StackPanel Background="#5865f2">
                 <TextBlock Padding="30" TextAlignment="Center" FontSize="45" FontWeight="Bold" Foreground="White">IMAGINE UN ENDROIT...</TextBlock>
                 <TextBlock TextWrapping="WrapWithOverflow" TextAlignment="Center" FontSize="15" Foreground="White">…où tu pourrais faire partie d'un club scolaire, d'un groupe de gamers ou d'une communauté d'art internationale. Un endroit où toi et ta bande d'amis pouvez simplement passer du temps ensemble. Un endroit qui permettrait plus facilement de discuter tous les jours et de se retrouver plus souvent.</TextBlock>
 
@@ -65,6 +69,7 @@
             
             </StackPanel>
         </Grid>
+        </StackPanel>
         <!--Text plus bottom-->
 
         <StackPanel VerticalAlignment="Bottom">
