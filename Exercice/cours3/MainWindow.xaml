@@ -5,13 +5,97 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:cours3"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="2200" Width="800">
     <Grid>
 
         <!--Top bar-->
+        <Grid Height="40px" VerticalAlignment="Top" Background="#5865f2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+                <ColumnDefinition></ColumnDefinition>
+            </Grid.ColumnDefinitions>
 
+            <WrapPanel VerticalAlignment="Center" Grid.ColumnSpan="3">
+                <TextBlock Background="Wheat" Height="15px" Width="15px"></TextBlock>
+                <TextBlock FontSize="18" TextAlignment="Left" Foreground="#fff" VerticalAlignment="Center">discord</TextBlock>
+            </WrapPanel>
+
+            <TextBlock Grid.Column="3" TextAlignment="Center" Foreground="#fff" VerticalAlignment="Center">télécharger</TextBlock>
+            <TextBlock Grid.Column="4" TextAlignment="Center" Foreground="#fff" VerticalAlignment="Center">Nitro</TextBlock>
+            <TextBlock Grid.Column="5" TextAlignment="Center" Foreground="#fff" VerticalAlignment="Center">Découvrir</TextBlock>
+            <TextBlock Grid.Column="6" TextAlignment="Center" Foreground="#fff" VerticalAlignment="Center">Sécurité</TextBlock>
+            <TextBlock Grid.Column="7" TextAlignment="Center"  Foreground="#fff" VerticalAlignment="Center">Assistance</TextBlock>
+            <TextBlock Grid.Column="8" TextAlignment="Center"  Foreground="#fff" VerticalAlignment="Center">Blog</TextBlock>
+            <TextBlock Grid.Column="9" TextAlignment="Center"  Foreground="#fff" VerticalAlignment="Center">emploi</TextBlock>
+            <Button Grid.Column="10" Height="30px" Grid.ColumnSpan="3" Margin="100px 0 10 0">Se Connecter</Button>
+        </Grid>
         <!--titre-->
         <!--Text plus bottom-->
+
+        <StackPanel VerticalAlignment="Bottom">
+            <Grid Height="380">
+                <Grid.ColumnDefinitions Margin="0 10 0 0">
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Background="#FF230F3C" Height="300" Width="350"></TextBlock>
+                <StackPanel Grid.Column="2" Height="310"  Width="300" >
+                    <TextBlock Grid.Column="2" TextWrapping="Wrap" FontSize="30" FontWeight="Bold">Crée un espace accessible uniquement sur invitation où tu te sens bien</TextBlock>
+                    <TextBlock Grid.Column="2" TextWrapping="Wrap" Margin="0 10 0 0" FontSize="13">Les serveurs Discord sont organisés en salons axés sur des sujets où vous pouvez collaborer, partager et simplement discuter de votre journée sans encombrer un groupe de discussion.</TextBlock>
+                </StackPanel>
+
+            </Grid>
+
+            <Grid Height="380" Margin="0 10 0 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+
+                <TextBlock Grid.Column="2" Background="#FF230F3C" Height="300" Width="350"></TextBlock>
+                <StackPanel Height="310"  Width="300" >
+                    <TextBlock  TextWrapping="Wrap" FontSize="30" FontWeight="Bold">Là où il est facile de passer du temps ensemble</TextBlock>
+                    <TextBlock  TextWrapping="Wrap" Margin="0 10 0 0" FontSize="13">Prends place dans un salon vocal quand tu es libre. Les amis dans ton serveur peuvent voir que tu es là et immédiatement te rejoindre sans avoir besoin d'appeler.</TextBlock>
+                </StackPanel>
+
+            </Grid>
+
+            <Grid Height="380" Margin="0 10 0 0">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition></ColumnDefinition>
+                    <ColumnDefinition></ColumnDefinition>
+
+                </Grid.ColumnDefinitions>
+
+                <TextBlock  Background="#FF230F3C" Height="300" Width="350"></TextBlock>
+                <StackPanel Grid.Column="2" Height="310"  Width="300" >
+                    <TextBlock  TextWrapping="Wrap" FontSize="30" FontWeight="Bold">De quelques personnes à toute une communauté</TextBlock>
+                    <TextBlock  TextWrapping="Wrap" Margin="0 10 0 0" FontSize="13">Gère n'importe quelle communauté, grâce à des outils de modération et des permissions personnalisées pour les membres. Accorde des pouvoirs spéciaux aux membres, crée des salons privés, et plus encore.</TextBlock>
+                </StackPanel>
+
+            </Grid>
+
+            <StackPanel>
+                <TextBlock Margin="20 0 20 0" FontSize="40" TextWrapping="Wrap" TextAlignment="Center" FontWeight="Bold">Une technologie fiable pour garder le lien</TextBlock>
+                <TextBlock Margin="20 0 20 0" TextWrapping="Wrap" TextAlignment="Center" FontSize="13">Grâce aux chats vocaux et vidéo à faible latence, les interlocuteurs ont l'impression d'être dans la même pièce. Fais un petit coucou par vidéo, regarde tes amis streamer leurs jeux, ou profitez du partage d'écran pour faire une session de dessin ensemble.</TextBlock>
+                <TextBlock Height="350" Width="600" Background="#FF210321" Margin="0 15 0 0 "></TextBlock>
+            </StackPanel>
+        </StackPanel>
+        
         <!--bottom bar-->
     </Grid>
 </Window>
