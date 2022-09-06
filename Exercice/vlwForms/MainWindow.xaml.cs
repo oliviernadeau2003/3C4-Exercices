@@ -23,6 +23,8 @@ namespace vlwForms
         public MainWindow()
         {
             InitializeComponent();
+            
+            
         }
     }
 }

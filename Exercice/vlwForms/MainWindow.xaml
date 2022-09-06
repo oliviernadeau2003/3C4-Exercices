@@ -5,8 +5,41 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:vlwForms"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="400">
     <Grid>
-
+        <StackPanel>
+        <StackPanel Background="Black" Height="34" VerticalAlignment="top">
+            <TextBlock Foreground="White" FontSize="25" TextAlignment="Center" FontWeight="bold" VerticalAlignment="Center">Create New User</TextBlock>
+        </StackPanel>
+        <StackPanel>
+            <Grid Height="330">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="150"></ColumnDefinition>
+                        <ColumnDefinition Width="20"></ColumnDefinition>
+                        <ColumnDefinition></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                    <RowDefinition></RowDefinition>
+                </Grid.RowDefinitions>
+                    <TextBlock TextAlignment="Right">prefix</TextBlock>
+                    <WrapPanel Grid.Column="2">
+                        <CheckBox>Mr</CheckBox>
+                        <CheckBox>Mrs</CheckBox>
+                    </WrapPanel>
+                    <TextBlock Grid.Row="1" x:Name="texteGauche">first name</TextBlock>
+            </Grid>
+        </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
