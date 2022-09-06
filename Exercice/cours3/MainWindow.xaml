@@ -5,7 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:cours3"
         mc:Ignorable="d"
+<<<<<<< Updated upstream
         Title="Discord | LE lieu pour discuter et se retrouver" Height="2000" Width="800"
+=======
+        Title="Discord | LE lieu pour discuter et se retrouver" Height="2200" Width="800"
+>>>>>>> Stashed changes
         WindowStartupLocation="CenterScreen">
     <Grid>
 
