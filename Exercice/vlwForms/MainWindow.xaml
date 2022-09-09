@@ -12,34 +12,78 @@
             <TextBlock Foreground="White" FontSize="25" TextAlignment="Center" FontWeight="bold" VerticalAlignment="Center">Create New User</TextBlock>
         </StackPanel>
         <StackPanel>
-            <Grid Height="330">
-                <Grid.ColumnDefinitions>
-                    <ColumnDefinition Width="150"></ColumnDefinition>
+                <Grid Height="330" Margin="0 10 0 0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="150"></ColumnDefinition>
                         <ColumnDefinition Width="20"></ColumnDefinition>
                         <ColumnDefinition></ColumnDefinition>
-                </Grid.ColumnDefinitions>
-                <Grid.RowDefinitions>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                    <RowDefinition></RowDefinition>
-                </Grid.RowDefinitions>
-                    <TextBlock TextAlignment="Right">prefix</TextBlock>
+                    </Grid.ColumnDefinitions>
+                    <Grid.RowDefinitions>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                        <RowDefinition></RowDefinition>
+                    </Grid.RowDefinitions>
+                    <TextBlock TextAlignment="Right" FontWeight="Bold">prefix</TextBlock>
                     <WrapPanel Grid.Column="2">
-                        <CheckBox>Mr</CheckBox>
-                        <CheckBox>Mrs</CheckBox>
+                        <RadioButton GroupName="radio">Mr</RadioButton>
+                        <RadioButton GroupName="radio">Mrs</RadioButton>
                     </WrapPanel>
-                    <TextBlock Grid.Row="1" x:Name="texteGauche">first name</TextBlock>
-            </Grid>
-        </StackPanel>
+
+                    <TextBlock Grid.Row="1" TextAlignment="Right" FontWeight="Bold">First Name</TextBlock>
+                    <TextBox Grid.Row="1" Grid.Column="2" Height="20" Margin="0 0 10 7"></TextBox>
+
+                    <TextBlock Grid.Row="2" TextAlignment="Right" FontWeight="Bold">Last Name</TextBlock>
+                    <TextBox Grid.Row="2" Grid.Column="2" Height="20" Margin="0 0 10 7"></TextBox>
+
+                    <TextBlock Grid.Row="3" TextAlignment="Right">Address</TextBlock>
+                    <TextBox Grid.Row="3" Grid.Column="2" Height="20" Margin="0 0 10 7"></TextBox>
+
+                    <TextBlock Grid.Row="4" TextAlignment="Right" FontWeight="Bold">Postal Code</TextBlock>
+                    <TextBox Grid.Row="4" Grid.Column="2" Height="20" Margin="0 0 10 7"></TextBox>
+
+                    <TextBlock Grid.Row="5" TextAlignment="Right">Province</TextBlock>
+                    <ComboBox IsEditable="True" IsReadOnly="True" Text="Select a Province" Grid.Row="5" Grid.Column="3" x:Name="province"  Height="20" Margin="0 0 10 7" >
+                        <ComboBoxItem>QC</ComboBoxItem>
+                        <ComboBoxItem>ON</ComboBoxItem>
+                        <ComboBoxItem>BC</ComboBoxItem>
+
+                    </ComboBox>
+
+
+                    <TextBlock Grid.Row="6" TextAlignment="Right">Date of Birth</TextBlock>
+                    <DatePicker Grid.Row="6" Grid.Column="3" Height="20" Margin="0 0 10 7"></DatePicker>
+
+
+                    <TextBlock Grid.Row="7" TextAlignment="Right" FontWeight="Bold">Username</TextBlock>
+                    <TextBox Grid.Row="7" Grid.Column="2" Height="20" Margin="0 0 10 7"></TextBox>
+
+
+                    <TextBlock Grid.Row="8" TextAlignment="Right" FontWeight="Bold">Password</TextBlock>
+                    <TextBox Grid.Row="8" Grid.Column="2" Height="20" Margin="0 0 10 7"></TextBox>
+
+                    <TextBlock Grid.Row="9" TextAlignment="Right" FontWeight="Bold"> Confirm Password</TextBlock>
+                    <TextBox Grid.Row="9" Grid.Column="2" Height="20" Margin="0 0 10 7"></TextBox>
+
+                    <TextBlock Grid.Row="10" TextAlignment="Right" FontWeight="Bold">I agree to terms</TextBlock>
+                    <CheckBox Grid.Row="10" Grid.Column="2"></CheckBox>
+
+                    <TextBlock Grid.Row="11" TextAlignment="Right" >Newsletter</TextBlock>
+                    <ToggleButton Grid.Column="2" Grid.Row="11" Height="14" Width="60" FontSize="9" HorizontalAlignment="Left"  Margin="0 0 10 7">subscribe</ToggleButton>
+                </Grid>
+            </StackPanel>
+            <WrapPanel HorizontalAlignment="Center" Margin="5">
+                <Button Background="Black" Foreground="White" Padding="5 3 5 3" Margin="0 0 15 0">Submit</Button>
+                <Button Background="White" Foreground="Black" Padding="11 3 11 3">clear</Button>
+            </WrapPanel>
         </StackPanel>
     </Grid>
 </Window>
