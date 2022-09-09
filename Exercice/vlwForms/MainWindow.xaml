@@ -7,6 +7,7 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="400">
     <Grid>
+        
         <StackPanel>
         <StackPanel Background="Black" Height="34" VerticalAlignment="top">
             <TextBlock Foreground="White" FontSize="25" TextAlignment="Center" FontWeight="bold" VerticalAlignment="Center">Create New User</TextBlock>
@@ -30,12 +31,15 @@
                         <RowDefinition></RowDefinition>
                         <RowDefinition></RowDefinition>
                         <RowDefinition></RowDefinition>
-                        <RowDefinition></RowDefinition>
+                        <RowDefinition Height="21"></RowDefinition>
                     </Grid.RowDefinitions>
+
+                    <Rectangle Grid.Column="1" Grid.RowSpan="12" Width="1"   Stroke="Gray"></Rectangle>
+                    
                     <TextBlock TextAlignment="Right" FontWeight="Bold">prefix</TextBlock>
                     <WrapPanel Grid.Column="2">
                         <RadioButton GroupName="radio">Mr</RadioButton>
-                        <RadioButton GroupName="radio">Mrs</RadioButton>
+                        <RadioButton GroupName="radio" Margin="8 0 0 0">Mrs</RadioButton>
                     </WrapPanel>
 
                     <TextBlock Grid.Row="1" TextAlignment="Right" FontWeight="Bold">First Name</TextBlock>
@@ -60,7 +64,7 @@
 
 
                     <TextBlock Grid.Row="6" TextAlignment="Right">Date of Birth</TextBlock>
-                    <DatePicker Grid.Row="6" Grid.Column="3" Height="20" Margin="0 0 10 7"></DatePicker>
+                    <DatePicker Grid.Row="6" Grid.Column="3" FontSize="11"  Height="20" Margin="0 0 10 7"></DatePicker>
 
 
                     <TextBlock Grid.Row="7" TextAlignment="Right" FontWeight="Bold">Username</TextBlock>
@@ -77,7 +81,7 @@
                     <CheckBox Grid.Row="10" Grid.Column="2"></CheckBox>
 
                     <TextBlock Grid.Row="11" TextAlignment="Right" >Newsletter</TextBlock>
-                    <ToggleButton Grid.Column="2" Grid.Row="11" Height="14" Width="60" FontSize="9" HorizontalAlignment="Left"  Margin="0 0 10 7">subscribe</ToggleButton>
+                    <ToggleButton Grid.Column="2" Grid.Row="11" Height="14" Width="60" FontSize="9" HorizontalAlignment="Left" >subscribe</ToggleButton>
                 </Grid>
             </StackPanel>
             <WrapPanel HorizontalAlignment="Center" Margin="5">
