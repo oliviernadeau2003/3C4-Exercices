@@ -34,6 +34,8 @@ namespace vlwForms
             InitializeComponent();
 
             GetControlValues();
+
+            BtnClear.Click += Button1_Click;
         }
         private void GetControlValues()
         {
@@ -52,6 +54,43 @@ namespace vlwForms
         private void UpdateUI()
         {
       
+        }
+
+        private void ResetUi()
+        {
+
+        }
+
+        private void Button1_Click(object sender, RoutedEventArgs e)
+        {
+            if ((bool)radioButton1.IsChecked)
+            {
+                radioButton1.IsChecked = false;
+            }
+            if ((bool)radioButton2.IsChecked)
+            {
+                radioButton2.IsChecked = false;
+            }
+            firstNameBox.Text = "";
+            lastNameBox.Text = "";
+            adressBox.Text = "";
+            codeBox.Text = "";
+            if(province.SelectedItem != null)
+            {
+                province.SelectedItem = null;
+            }
+            if(dateBox.SelectedDate != null)
+            {
+                dateBox.SelectedDate = null;
+            }
+            usernameBox.Text = "";
+            passwordBox.Text = "";
+            passwordBox2.Text = "";
+
+            if ((bool)termsBox.IsChecked)
+            {
+                termsBox.IsChecked = false;
+            }
         }
 
       

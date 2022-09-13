@@ -7,4 +7,68 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="Assets\Icons\icon_arrow_back.png" />
+    <None Remove="Assets\Icons\icon_arrow_back.svg" />
+    <None Remove="Assets\Icons\icon_arrow_forward.png" />
+    <None Remove="Assets\Icons\icon_close.png" />
+    <None Remove="Assets\Icons\icon_delete.png" />
+    <None Remove="Assets\Icons\icon_favorite_empty.png" />
+    <None Remove="Assets\Icons\icon_favorite_full.png" />
+    <None Remove="Assets\Icons\icon_thumbs_up_empty.png" />
+    <None Remove="Assets\Icons\icon_thumbs_up_full.png" />
+    <None Remove="Assets\Images\image1.jpg" />
+    <None Remove="Assets\Images\image10.jpg" />
+    <None Remove="Assets\Images\image10_t.jpg" />
+    <None Remove="Assets\Images\image1_t.jpg" />
+    <None Remove="Assets\Images\image2.jpg" />
+    <None Remove="Assets\Images\image2_t.jpg" />
+    <None Remove="Assets\Images\image3.jpg" />
+    <None Remove="Assets\Images\image3_t.jpg" />
+    <None Remove="Assets\Images\image4.jpg" />
+    <None Remove="Assets\Images\image4_t.jpg" />
+    <None Remove="Assets\Images\image5.jpg" />
+    <None Remove="Assets\Images\image5_t.jpg" />
+    <None Remove="Assets\Images\image6.jpg" />
+    <None Remove="Assets\Images\image6_t.jpg" />
+    <None Remove="Assets\Images\image7_t.jpg" />
+    <None Remove="Assets\Images\image8.jpg" />
+    <None Remove="Assets\Images\image8_t.jpg" />
+    <None Remove="Assets\Images\image9.jpg" />
+    <None Remove="Assets\Images\image9_t.jpg" />
+    <None Remove="Assets\Images\mage7.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\Icons\icon_arrow_back.png" />
+    <Resource Include="Assets\Icons\icon_arrow_back.svg" />
+    <Resource Include="Assets\Icons\icon_arrow_forward.png" />
+    <Resource Include="Assets\Icons\icon_close.png" />
+    <Resource Include="Assets\Icons\icon_delete.png" />
+    <Resource Include="Assets\Icons\icon_favorite_empty.png" />
+    <Resource Include="Assets\Icons\icon_favorite_full.png" />
+    <Resource Include="Assets\Icons\icon_thumbs_up_empty.png" />
+    <Resource Include="Assets\Icons\icon_thumbs_up_full.png" />
+    <Resource Include="Assets\Images\image1.jpg" />
+    <Resource Include="Assets\Images\image10.jpg" />
+    <Resource Include="Assets\Images\image10_t.jpg" />
+    <Resource Include="Assets\Images\image1_t.jpg" />
+    <Resource Include="Assets\Images\image2.jpg" />
+    <Resource Include="Assets\Images\image2_t.jpg" />
+    <Resource Include="Assets\Images\image3.jpg" />
+    <Resource Include="Assets\Images\image3_t.jpg" />
+    <Resource Include="Assets\Images\image4.jpg" />
+    <Resource Include="Assets\Images\image4_t.jpg" />
+    <Resource Include="Assets\Images\image5.jpg" />
+    <Resource Include="Assets\Images\image5_t.jpg" />
+    <Resource Include="Assets\Images\image6.jpg" />
+    <Resource Include="Assets\Images\image6_t.jpg" />
+    <Resource Include="Assets\Images\image7_t.jpg" />
+    <Resource Include="Assets\Images\image8.jpg" />
+    <Resource Include="Assets\Images\image8_t.jpg" />
+    <Resource Include="Assets\Images\image9.jpg" />
+    <Resource Include="Assets\Images\image9_t.jpg" />
+    <Resource Include="Assets\Images\mage7.jpg" />
+  </ItemGroup>
+
 </Project>
