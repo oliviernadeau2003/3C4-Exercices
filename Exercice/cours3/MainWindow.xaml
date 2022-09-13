@@ -123,8 +123,25 @@
                 <TextBlock Margin="20 0 20 0" TextWrapping="Wrap" TextAlignment="Center" FontSize="13">Grâce aux chats vocaux et vidéo à faible latence, les interlocuteurs ont l'impression d'être dans la même pièce. Fais un petit coucou par vidéo, regarde tes amis streamer leurs jeux, ou profitez du partage d'écran pour faire une session de dessin ensemble.</TextBlock>
                 <TextBlock Height="350" Width="600" Background="#FF210321" Margin="0 15 0 0 "></TextBlock>
             </StackPanel>
+
+            <StackPanel HorizontalAlignment="Center">
+                <TextBlock Margin="0 23 0 0" FontSize="30"> On se lance dans l'aventure</TextBlock>
+                <Button Width="160" Height="30" Margin="0 10 0 0" Background="#5865f2">Télécharger pour windows</Button>
+            </StackPanel>
+
+            <StackPanel Background="#FF444141" Height="160" Margin="0 30 0 0">
+                <TextBlock  FontSize="30" FontWeight="Bold" Foreground="#5865f2" Margin="0 20 0 0">IMAGINE UN ENDROIT</TextBlock>
+                <Rectangle Height="5" Fill="#5865f2"></Rectangle>
+                <WrapPanel>
+                    <Rectangle Margin="5 0 5 0" Height="15" Width="15" Fill="#5865f2"></Rectangle>
+                    <TextBlock Margin="0 5 0 0" TextAlignment="Center" Foreground="White" FontSize="30">Discord</TextBlock>
+                    <Button  HorizontalAlignment="Right"  Width="80" Height="30" Margin="500 0 0 0" Background="#5865f2">je m'inscrit </Button>
+                </WrapPanel>
+               
+            </StackPanel>
         </StackPanel>
         
         <!--bottom bar-->
+       
     </Grid>
 </Window>
