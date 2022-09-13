@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:cours3"
         mc:Ignorable="d"
-        Title="Discord | LE lieu pour discuter et se retrouver" Height="2000" Width="800"
+        Title="Discord | LE lieu pour discuter et se retrouver" Height="2300" Width="800"
         WindowStartupLocation="CenterScreen">
     <Grid>
 
