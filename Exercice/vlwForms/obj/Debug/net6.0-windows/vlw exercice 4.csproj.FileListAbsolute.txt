@@ -1,0 +1,21 @@
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\bin\Debug\net6.0-windows\vlw exercice 4.exe
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\bin\Debug\net6.0-windows\vlw exercice 4.deps.json
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\bin\Debug\net6.0-windows\vlw exercice 4.runtimeconfig.json
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\bin\Debug\net6.0-windows\vlw exercice 4.dll
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\bin\Debug\net6.0-windows\vlw exercice 4.pdb
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.csproj.AssemblyReference.cache
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4_MarkupCompile.cache
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4_MarkupCompile.lref
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\MainWindow.baml
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.g.resources
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.AssemblyInfoInputs.cache
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.AssemblyInfo.cs
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.csproj.CoreCompileInputs.cache
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.dll
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\refint\vlw exercice 4.dll
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.pdb
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.genruntimeconfig.cache
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\ref\vlw exercice 4.dll

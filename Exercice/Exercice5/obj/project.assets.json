@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\1966857\\Documents\\1966857\\3C4-Exercices\\Exercice\\vlwForms\\vlw exercice 4.csproj",
-      "projectName": "vlw exercice 4",
-      "projectPath": "C:\\Users\\1966857\\Documents\\1966857\\3C4-Exercices\\Exercice\\vlwForms\\vlw exercice 4.csproj",
+      "projectUniqueName": "C:\\Users\\1966857\\Documents\\1966857\\3C4-Exercices\\Exercice\\Exercice5\\Exercice5.csproj",
+      "projectName": "Exercice5",
+      "projectPath": "C:\\Users\\1966857\\Documents\\1966857\\3C4-Exercices\\Exercice\\Exercice5\\Exercice5.csproj",
       "packagesPath": "C:\\Users\\1966857\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\1966857\\Documents\\1966857\\3C4-Exercices\\Exercice\\vlwForms\\obj\\",
+      "outputPath": "C:\\Users\\1966857\\Documents\\1966857\\3C4-Exercices\\Exercice\\Exercice5\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
