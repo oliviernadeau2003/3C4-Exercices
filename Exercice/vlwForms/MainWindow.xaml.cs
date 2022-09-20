@@ -12,87 +12,30 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using vlwForms;
 
-namespace vlwForms
+namespace Cours04
 {
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    /// 
-
-    public enum Province
-    {
-        QC,
-        ON,
-        BC
-
-    }
     public partial class MainWindow : Window
     {
         public MainWindow()
         {
             InitializeComponent();
-
-            GetControlValues();
-
-            BtnClear.Click += Button1_Click;
         }
-        private void GetControlValues()
+
+        private void FormsWindow_ON(object sender, RoutedEventArgs e)
         {
-            if (province.SelectedItem != null)
-            {
-                var selectedComboBoxItem = (ComboBoxItem)province.SelectedItem;
-                string value = selectedComboBoxItem.Content.ToString(); // Patate (string)
-
-                // Il est suggere d'utiliser des enums au lieu de string pour manipuler des choix
-                // Le bout de code ci-dessous n'est pas a retenir par coeur, il converti une string and sa valeur Enum
-                Province p = (Province)Enum.Parse(typeof(Province), value);
-            }
-
-            UpdateUI();
+            FormsWindow_ON Forms = new();
+            Forms.Show();
         }
-        private void UpdateUI()
+
+        private void FormsWindow_VL(object sender, RoutedEventArgs e)
         {
-      
+            Forms_VL Forms = new();
+            Forms.Show();
         }
-
-        private void ResetUi()
-        {
-
-        }
-
-        private void Button1_Click(object sender, RoutedEventArgs e)
-        {
-            if ((bool)radioButton1.IsChecked)
-            {
-                radioButton1.IsChecked = false;
-            }
-            if ((bool)radioButton2.IsChecked)
-            {
-                radioButton2.IsChecked = false;
-            }
-            firstNameBox.Text = "";
-            lastNameBox.Text = "";
-            adressBox.Text = "";
-            codeBox.Text = "";
-            if(province.SelectedItem != null)
-            {
-                province.SelectedItem = null;
-            }
-            if(dateBox.SelectedDate != null)
-            {
-                dateBox.SelectedDate = null;
-            }
-            usernameBox.Text = "";
-            passwordBox.Text = "";
-            passwordBox2.Text = "";
-
-            if ((bool)termsBox.IsChecked)
-            {
-                termsBox.IsChecked = false;
-            }
-        }
-
-      
     }
 }

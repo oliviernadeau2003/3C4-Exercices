@@ -1,0 +1,90 @@
+﻿<Window x:Class="Cours04.FormsWindow_ON"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Cours04"
+        mc:Ignorable="d"
+        Title="Forms Window" Height="525" Width="500" FontSize="28">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="130"></ColumnDefinition>
+            <ColumnDefinition Width="40"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="30"></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <TextBlock Grid.ColumnSpan="3" TextAlignment="Center" FontSize="20" FontWeight="Bold" Foreground="White" Height="40" Background="Black">CREATE NEW USER</TextBlock>
+
+        <TextBlock x:Name="xPrefixText" VerticalAlignment="Center" TextAlignment="Right" Grid.Row="1" FontWeight="Bold" FontSize="14">Prefix</TextBlock>
+        <TabPanel VerticalAlignment="Center" Grid.Row="1" Grid.Column="2">
+            <RadioButton x:Name="xMrPrefix" Padding="0 0 10 0" FontSize="13">Mr</RadioButton>
+            <RadioButton x:Name="xMrsPrefix" FontSize="13">Mrs</RadioButton>
+        </TabPanel>
+
+        <TextBlock x:Name="xFirstNameText" VerticalAlignment="Center" TextAlignment="Right" Grid.Row="2" FontWeight="Bold" FontSize="14">First Name</TextBlock>
+        <TextBox x:Name="xFirstName" FontSize="14" HorizontalAlignment="Left" Grid.Row="2" Grid.Column="2" Width="280" Height="20"></TextBox>
+
+        <TextBlock x:Name="xLastNameText" VerticalAlignment="Center" TextAlignment="Right" Grid.Row="3" FontWeight="Bold" FontSize="14">Last Name</TextBlock>
+        <TextBox x:Name="xLastName" FontSize="14" HorizontalAlignment="Left"  Grid.Row="3" Grid.Column="2" Width="280" Height="20"></TextBox>
+
+        <TextBlock x:Name="xAddressText" VerticalAlignment="Center" Grid.Row="4" TextAlignment="Right" FontSize="14">Addresse</TextBlock>
+        <TextBox x:Name="xAddress" FontSize="14" HorizontalAlignment="Left" Grid.Row="4" Grid.Column="3" Width="280" Height="20"></TextBox>
+
+        <TextBlock x:Name="xPostalCodeText" VerticalAlignment="Center" Grid.Row="5" TextAlignment="Right" FontWeight="Bold" FontSize="14">Postal Code</TextBlock>
+        <TextBox x:Name="xPostalCode" FontSize="14" HorizontalAlignment="Left" Grid.Row="5" Grid.Column="3" Width="280" Height="20"></TextBox>
+
+        <TextBlock VerticalAlignment="Center" Grid.Row="6" TextAlignment="Right" FontSize="14">Province</TextBlock>
+        <ComboBox x:Name="xProvince" HorizontalAlignment="Left" FontSize="13" Grid.Row="6" Grid.Column="3" Width="280" Height="20" Text="Select a province" Focusable="False" IsEditable="True" IsReadOnly="True">
+            <ComboBoxItem>QC</ComboBoxItem>
+            <ComboBoxItem>ON</ComboBoxItem>
+            <ComboBoxItem>BC</ComboBoxItem>
+        </ComboBox>
+
+        <TextBlock VerticalAlignment="Center" Grid.Row="7" TextAlignment="Right" FontSize="14">Date of Birth</TextBlock>
+        <ComboBox x:Name="xDateOfBirth" HorizontalAlignment="Left" FontSize="13" Grid.Row="7" Grid.Column="3" Width="280" Height="20" Text="Select a date" Focusable="False" IsEditable="True" IsReadOnly="True">
+            <DatePicker SelectedDateFormat="Short"/>
+        </ComboBox>
+
+        <TextBlock x:Name="xUserNameText" Grid.Row="8" TextAlignment="Right" FontWeight="Bold" FontSize="14">Username</TextBlock>
+        <TextBox x:Name="xUserName" FontSize="14" HorizontalAlignment="Left" Grid.Row="8" Grid.Column="3" Width="280" Height="20"></TextBox>
+
+        <TextBlock x:Name="xPasswordText" VerticalAlignment="Center" Grid.Row="9" TextAlignment="Right" FontWeight="Bold" FontSize="14">Password</TextBlock>
+        <PasswordBox x:Name="xPassword" FontSize="14" HorizontalAlignment="Left" Grid.Row="9" Grid.Column="3" Width="280" Height="20"></PasswordBox>
+
+        <TextBlock x:Name="xConfimPasswordText" VerticalAlignment="Center" Grid.Row="10" TextAlignment="Right" FontWeight="Bold" FontSize="14">Confirm Password</TextBlock>
+        <PasswordBox x:Name="xConfimPassword" FontSize="14" HorizontalAlignment="Left" Grid.Row="10" Grid.Column="3" Width="280" Height="20"></PasswordBox>
+
+        <TextBlock x:Name="xTermsText" VerticalAlignment="Center" Grid.Row="11" TextAlignment="Right" FontWeight="Bold" FontSize="14">I agree to terms</TextBlock>
+        <CheckBox x:Name="xTerms" VerticalAlignment="Center" Grid.Row="11" Grid.Column="3"></CheckBox>
+
+        <TextBlock x:Name="xSubscribeText" VerticalAlignment="Center" Grid.Row="12" TextAlignment="Right" FontSize="13">Newsletter</TextBlock>
+        <Button x:Name="xSubscribe" FontSize="12" HorizontalAlignment="Left" Grid.Row="12" Grid.Column="3" Width="75" Height="20">Subscribe</Button>
+    
+        <TabPanel VerticalAlignment="Center" Grid.Row="13" Grid.Column="2" HorizontalAlignment="Center">
+            <Button FontSize="15" Foreground="White" Background="Black" Width="75" Height="25" Click="Submit">Submit</Button>
+            <Button FontSize="15" Foreground="Black" Background="White" Width="75" Height="25" Click="Clear">Clear</Button>
+        </TabPanel>
+
+        <TextBlock Grid.Row="14" Grid.Column="2" FontSize="14" TextAlignment="Center" FontStyle="Italic" Text="User : 0"></TextBlock>
+
+    </Grid>
+</Window>

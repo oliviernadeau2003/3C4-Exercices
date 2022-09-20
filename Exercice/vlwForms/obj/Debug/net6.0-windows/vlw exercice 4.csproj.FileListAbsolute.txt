@@ -19,3 +19,28 @@ C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net
 C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.pdb
 C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.genruntimeconfig.cache
 C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\ref\vlw exercice 4.dll
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\bin\Debug\net6.0-windows\vlw exercice 4.exe
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\bin\Debug\net6.0-windows\vlw exercice 4.deps.json
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\bin\Debug\net6.0-windows\vlw exercice 4.runtimeconfig.json
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\bin\Debug\net6.0-windows\vlw exercice 4.dll
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\bin\Debug\net6.0-windows\vlw exercice 4.pdb
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.csproj.AssemblyReference.cache
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\MainWindow.g.cs
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\App.g.cs
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4_MarkupCompile.cache
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4_MarkupCompile.lref
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\MainWindow.baml
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.g.resources
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.AssemblyInfoInputs.cache
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.AssemblyInfo.cs
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.csproj.CoreCompileInputs.cache
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.dll
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\refint\vlw exercice 4.dll
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.pdb
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\vlw exercice 4.genruntimeconfig.cache
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\ref\vlw exercice 4.dll
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\Forms_ON.g.cs
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\Forms_VL.g.cs
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\Forms_ON.baml
+D:\Olivier\Interface Graphique\Exercices_1\3C4-Exercices\Exercice\vlwForms\obj\Debug\net6.0-windows\Forms_VL.baml

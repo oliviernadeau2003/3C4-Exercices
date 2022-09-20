@@ -7,9 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice", "Exercice\Exerci
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cours3", "cours3\cours3.csproj", "{057E9865-9BF1-4542-B8AB-5E0D80240B5C}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "vlw exercice 4", "vlwForms\vlw exercice 4.csproj", "{EEADA594-8A48-4D83-BB93-CA2A2C4F46CF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice Cours4", "vlwForms\Exercice Cours4.csproj", "{EEADA594-8A48-4D83-BB93-CA2A2C4F46CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercice5", "Exercice5\Exercice5.csproj", "{4FBE51EE-E1B9-4650-B4D2-989F6B547004}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice5", "Exercice5\Exercice5.csproj", "{4FBE51EE-E1B9-4650-B4D2-989F6B547004}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
