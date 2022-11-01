@@ -1,0 +1,5 @@
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\cours6_vlw\obj\Debug\net6.0-windows\cours6_vlw.csproj.AssemblyReference.cache
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\cours6_vlw\obj\Debug\net6.0-windows\MainWindow.g.cs
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\cours6_vlw\obj\Debug\net6.0-windows\App.g.cs
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\cours6_vlw\obj\Debug\net6.0-windows\cours6_vlw_MarkupCompile.cache
+C:\Users\1966857\Documents\1966857\3C4-Exercices\Exercice\cours6_vlw\obj\Debug\net6.0-windows\cours6_vlw_MarkupCompile.lref
