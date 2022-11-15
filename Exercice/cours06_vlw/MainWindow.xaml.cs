@@ -135,7 +135,7 @@ namespace Cours06_vlw_Dictionary
 
             //TODO: rendre plus beau
 
-            ExercicePanel.Children.Add(textBlock);
+            //ExercicePanel.Children.Add(textBlock);
 
             // TODO: ajouter un TextBlock pour la reponse
             // TODO: rendre plus beau

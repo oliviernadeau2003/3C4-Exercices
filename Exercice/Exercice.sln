@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Exercice Cours4", "vlwForms
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "cours06_vlw", "cours06_vlw\cours06_vlw.csproj", "{168B468D-C8CA-410A-9B3C-8056677DF61E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{787DC60B-7FE9-47B2-A66B-D3650554D076}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfApp1", "WpfApp1\WpfApp1.csproj", "{787DC60B-7FE9-47B2-A66B-D3650554D076}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "cours 7", "cours 7\cours 7.csproj", "{6B92F78C-6F9D-4B62-AAC1-F00C1036620A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{787DC60B-7FE9-47B2-A66B-D3650554D076}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{787DC60B-7FE9-47B2-A66B-D3650554D076}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{787DC60B-7FE9-47B2-A66B-D3650554D076}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B92F78C-6F9D-4B62-AAC1-F00C1036620A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B92F78C-6F9D-4B62-AAC1-F00C1036620A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B92F78C-6F9D-4B62-AAC1-F00C1036620A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B92F78C-6F9D-4B62-AAC1-F00C1036620A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
